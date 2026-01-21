@@ -25,7 +25,7 @@ export class OpenMeteoService {
       for (const sensorType of sensorTypes) {
         try {
           const response = await axios.get(
-            `${this.baseUrl}/${stationId}/${sensorType}/last3600s`
+            `${this.baseUrl}/${stationId}/${sensorType}`
           );
           
           if (response.data && Array.isArray(response.data) && response.data.length > 0) {

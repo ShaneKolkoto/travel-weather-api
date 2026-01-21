@@ -18,6 +18,12 @@ export interface Weather {
   windSpeed?: number;
 }
 
+export interface Activity {
+  name: string;
+  score: number;
+  reason: string;
+  recommended: boolean;
+}
 
 // OpenMeteo API response types
 export interface OpenMeteoStationInfo {
