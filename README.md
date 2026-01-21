@@ -6,3 +6,14 @@
 
 > A GraphQL API for a travel planning application that provides **city suggestions**, **weather data**, and **weather-based activity recommendations**. <br>
 > This project was built as part of a Mid-Level Backend Engineer technical assessment, with a focus on clean architecture, schema design, and testable business logic.
+
+## ✨ Features
+
+-   🔍 Dynamic city suggestions based on partial or full user input
+-   ☀️ Weather forecasts for a selected city (via Open-Meteo)
+-   🏂 Activity ranking based on current weather conditions:
+    -   Skiing
+    -   Surfing
+    -   Indoor sightseeing
+    -   Outdoor sightseeing
+-   🧪 Unit-tested core business logic
