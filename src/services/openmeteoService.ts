@@ -1,11 +1,8 @@
 import axios from 'axios';
 import { OpenMeteoStationInfo, OpenMeteoSensorData, Weather } from '../types';
-import dotenv from "dotenv";
-
-dotenv.config()
 
 export class OpenMeteoService {
-  private baseUrl = process.env.PRIVATE_BASE_URL || "";
+  private baseUrl = 'https://api.openmeteo.com/observations/openmeteo';
 
   async getStationInfo(stationId: string): Promise<OpenMeteoStationInfo> {
     try {
@@ -25,7 +22,7 @@ export class OpenMeteoService {
       for (const sensorType of sensorTypes) {
         try {
           const response = await axios.get(
-            `${this.baseUrl}/${stationId}/${sensorType}`
+            `${this.baseUrl}/${stationId}/${sensorType}/last3600s`
           );
           
           if (response.data && Array.isArray(response.data) && response.data.length > 0) {

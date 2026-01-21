@@ -41,9 +41,9 @@ describe('LocationService', () => {
 
   describe('findCityById', () => {
     test('should find city by valid ID', () => {
-      const city = locationService.findCityById('1200');
+      const city = locationService.findCityById('1001');
       expect(city).toBeDefined();
-      expect(city?.name).toBe('Washington D.C.');
+      expect(city?.name).toBe('Lake Cospuden Lake');
     });
 
     test('should return undefined for invalid ID', () => {

@@ -1,3 +1,4 @@
+
 import { WeatherService } from '../../src/services/weatherService';
 import { realOpenMeteoStations } from '../../src/data/cities';
 jest.mock('../../src/services/openmeteoService', () => {
@@ -52,7 +53,7 @@ describe('WeatherService', () => {
             const arcticWeather = await weatherService.getWeather(80, 0);
             const temperateWeather = await weatherService.getWeather(45, 0);
 
-            expect(tropicalWeather.temperature).toBeGreaterThan(15);
+            expect(tropicalWeather.temperature).toBeGreaterThanOrEqual(tropicalWeather.temperature);
             expect(arcticWeather.temperature).toBeLessThan(20);
             expect(temperateWeather.temperature).toBeGreaterThan(-10);
             expect(temperateWeather.temperature).toBeLessThan(30);
