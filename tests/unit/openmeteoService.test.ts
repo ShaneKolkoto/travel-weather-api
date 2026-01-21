@@ -33,7 +33,7 @@ describe('OpenMeteoService', () => {
       const result = await openMeteoService.getStationInfo('1001');
 
       expect(mockedAxios.get).toHaveBeenCalledWith(
-        `${process.env.PRIVATE_BASE_URL}/1001`
+        `${process.env.OPENMETEO_BASE_URL}/1001`
       );
       expect(result).toEqual(mockStationInfo);
     });
@@ -82,7 +82,7 @@ describe('OpenMeteoService', () => {
       const result = await openMeteoService.getWeatherData('1001');
 
       expect(mockedAxios.get).toHaveBeenCalledWith(
-        `${process.env.PRIVATE_BASE_URL}/1001`
+        `${process.env.OPENMETEO_BASE_URL}/1001`
       );
       expect(result.temperature).toBe(18.5);
       expect(result.humidity).toBe(65);

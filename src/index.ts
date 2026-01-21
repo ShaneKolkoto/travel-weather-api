@@ -1,11 +1,19 @@
-import express from 'express';
-import dotenv from 'dotenv';
+import { ApolloServer } from '@apollo/server';
+import { startStandaloneServer } from '@apollo/server/standalone';
+import { typeDefs } from './schema/typeDefs';
+import { resolvers } from './schema/resolvers';
 
-dotenv.config();
-const server = express();
-const PORT = process.env.PORT;
+async function startServer() {
+  const server = new ApolloServer({
+    typeDefs,
+    resolvers,
+  });
 
-server.listen(PORT, () => {
-    console.log(`🚀 Travel Weather API running on port ${PORT}`);
-    console.log(`🔗 http://localhost:${PORT}`);
-});
+  const { url } = await startStandaloneServer(server, {
+    listen: { port: 4000 },
+  });
+
+  console.log(`🚀 Server ready at ${url}`);
+}
+
+startServer().catch(console.error);

@@ -25,6 +25,12 @@ export interface Activity {
   recommended: boolean;
 }
 
+export interface TravelRecommendation {
+  city: City;
+  weather: Weather;
+  activities: Activity[];
+}
+
 // OpenMeteo API response types
 export interface OpenMeteoStationInfo {
   id: string;
