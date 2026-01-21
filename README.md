@@ -17,3 +17,34 @@
     -   Indoor sightseeing
     -   Outdoor sightseeing
 -   🧪 Unit-tested core business logic
+
+### Key Design Decisions:
+
+1. **GraphQL Schema Design**: Designed for extensibility with clear types and relationships
+2. **Separation of Concerns**: Services handle business logic, resolvers handle GraphQL concerns
+3. **Caching Strategy**: Multi-level caching with appropriate TTLs for different data types
+4. **Validation**: validation for all inputs with clear error messages
+
+<!-- ## Setup -->
+## Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ShaneKolkoto/travel-weather-api
+cd travel-weather-api
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Set up environment variables:
+```bash
+cp .env.example .env
+```
+
+
+4. Run locally
+```bash
+    npm run dev
+```
