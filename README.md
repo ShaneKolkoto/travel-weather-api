@@ -56,6 +56,8 @@ cp .env.example .env
 
 ## Queries
 
+> A GraphQL API for retrieving travel recommendations based on weather conditions and activities. The API provides city search functionality, weather data, activity recommendations, and comprehensive travel packages.
+
 1.  ### City Suggestions
     > Search for cities with auto-complete functionality:
 
