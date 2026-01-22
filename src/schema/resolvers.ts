@@ -44,7 +44,6 @@ export const resolvers = {
 },
     
     travelRecommendation: async (_: any, { cityId }: { cityId: string }) => {
-         console.log('travel recommendation', cityId)
       const city = locationService.findCityById(cityId);
       if (!city) {
         throw new Error('City not found');
