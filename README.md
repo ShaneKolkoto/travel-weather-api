@@ -32,6 +32,7 @@
 ```bash
 git clone https://github.com/ShaneKolkoto/travel-weather-api
 cd travel-weather-api
+```
 
 2. Install dependencies:
 ```bash
