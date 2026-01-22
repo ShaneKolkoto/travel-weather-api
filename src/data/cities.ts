@@ -59,7 +59,7 @@ export const cities: City[] = [
     country: 'USA',
     latitude: 38.9072,
     longitude: -77.0369,
-    stationId: undefined
+    stationId: '1200'
   },
   {
     id: '2',
@@ -67,7 +67,7 @@ export const cities: City[] = [
     country: 'Canada',
     latitude: 45.4215,
     longitude: -75.6972,
-    stationId: undefined
+    stationId: '1201'
   },
   {
     id: '3',
@@ -75,7 +75,7 @@ export const cities: City[] = [
     country: 'Mexico',
     latitude: 19.4326,
     longitude: -99.1332,
-    stationId: undefined
+    stationId: '1203'
   },
 
   // Europe
@@ -85,7 +85,7 @@ export const cities: City[] = [
     country: 'United Kingdom',
     latitude: 51.5074,
     longitude: -0.1278,
-    stationId: undefined
+    stationId: '1204'
   },
   {
     id: '5',
@@ -93,7 +93,7 @@ export const cities: City[] = [
     country: 'France',
     latitude: 48.8566,
     longitude: 2.3522,
-    stationId: undefined
+    stationId: '1205'
   },
   {
     id: '6',
@@ -101,7 +101,7 @@ export const cities: City[] = [
     country: 'Germany',
     latitude: 52.5200,
     longitude: 13.4050,
-    stationId: undefined
+    stationId: '1206'
   },
   {
     id: '7',
@@ -109,7 +109,7 @@ export const cities: City[] = [
     country: 'Italy',
     latitude: 41.9028,
     longitude: 12.4964,
-    stationId: undefined
+    stationId: '1207'
   },
   {
     id: '8',
@@ -117,7 +117,7 @@ export const cities: City[] = [
     country: 'Spain',
     latitude: 40.4168,
     longitude: -3.7038,
-    stationId: undefined
+    stationId: '1208'
   },
   {
     id: '9',
@@ -125,7 +125,7 @@ export const cities: City[] = [
     country: 'Russia',
     latitude: 55.7558,
     longitude: 37.6173,
-    stationId: undefined
+    stationId: '1209'
   },
 
   // Asia
@@ -135,7 +135,7 @@ export const cities: City[] = [
     country: 'Japan',
     latitude: 35.6762,
     longitude: 139.6503,
-    stationId: undefined
+    stationId: '1210'
   },
   {
     id: '11',
@@ -143,7 +143,7 @@ export const cities: City[] = [
     country: 'China',
     latitude: 39.9042,
     longitude: 116.4074,
-    stationId: undefined
+    stationId: '1211'
   },
   {
     id: '12',
@@ -151,7 +151,7 @@ export const cities: City[] = [
     country: 'India',
     latitude: 28.6139,
     longitude: 77.2090,
-    stationId: undefined
+    stationId: '1212'
   },
   {
     id: '13',
@@ -159,7 +159,7 @@ export const cities: City[] = [
     country: 'South Korea',
     latitude: 37.5665,
     longitude: 126.9780,
-    stationId: undefined
+    stationId: '1213'
   },
   {
     id: '14',
@@ -167,7 +167,7 @@ export const cities: City[] = [
     country: 'Thailand',
     latitude: 13.7563,
     longitude: 100.5018,
-    stationId: undefined
+    stationId: '1214'
   },
   {
     id: '15',
@@ -175,7 +175,7 @@ export const cities: City[] = [
     country: 'Singapore',
     latitude: 1.3521,
     longitude: 103.8198,
-    stationId: undefined
+    stationId: '1215'
   },
 
   // Oceania
@@ -185,7 +185,7 @@ export const cities: City[] = [
     country: 'Australia',
     latitude: -35.2809,
     longitude: 149.1300,
-    stationId: undefined
+    stationId: '1216'
   },
   {
     id: '17',
@@ -193,7 +193,7 @@ export const cities: City[] = [
     country: 'New Zealand',
     latitude: -41.2865,
     longitude: 174.7762,
-    stationId: undefined
+    stationId: '1217'
   },
 
   // Africa
@@ -203,7 +203,7 @@ export const cities: City[] = [
     country: 'Egypt',
     latitude: 30.0444,
     longitude: 31.2357,
-    stationId: undefined
+    stationId: '1218'
   },
   {
     id: '19',
@@ -211,7 +211,7 @@ export const cities: City[] = [
     country: 'Kenya',
     latitude: -1.2921,
     longitude: 36.8219,
-    stationId: undefined
+    stationId: '1219'
   },
   {
     id: '20',
@@ -219,7 +219,7 @@ export const cities: City[] = [
     country: 'South Africa',
     latitude: -25.7479,
     longitude: 28.2293,
-    stationId: undefined
+    stationId: '1220'
   },
   {
     id: '21',
@@ -227,7 +227,7 @@ export const cities: City[] = [
     country: 'Morocco',
     latitude: 34.0209,
     longitude: -6.8416,
-    stationId: undefined
+    stationId: '1221'
   },
 
   // South America
@@ -237,7 +237,7 @@ export const cities: City[] = [
     country: 'Brazil',
     latitude: -15.7975,
     longitude: -47.8919,
-    stationId: undefined
+    stationId: '1222'
   },
   {
     id: '23',
@@ -245,7 +245,7 @@ export const cities: City[] = [
     country: 'Argentina',
     latitude: -34.6037,
     longitude: -58.3816,
-    stationId: undefined
+    stationId: '1223'
   },
   {
     id: '24',
@@ -253,7 +253,7 @@ export const cities: City[] = [
     country: 'Peru',
     latitude: -12.0464,
     longitude: -77.0428,
-    stationId: undefined
+    stationId: '1224'
   },
   {
     id: '25',
@@ -261,7 +261,7 @@ export const cities: City[] = [
     country: 'Chile',
     latitude: -33.4489,
     longitude: -70.6693,
-    stationId: undefined
+    stationId: '1225'
   }
 ];
 
